@@ -1,0 +1,63 @@
+.header{
+    color: yellow;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 800;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    gap: 10px;
+}
+
+.logo{
+    width: 80px;
+    height: auto;
+
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color:#c8967c; */
+    background-image: url("/public/assets/icon/image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.login-card{
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    margin: 150px 90px 150px 90px;
+    height: 400px;
+    background-color:maroon;
+}
+
+ion-item{
+    --background: maroon;
+    --color:white;
+    --highlight-color-focused:lightgreen;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+ion-item.item-has-focus ion-label {
+  color: lightgreen!important; /* Change floating label color when focused */
+}
+ion-label{
+    background: maroon;
+}
+.button{
+    height: 50px;
+    --background:green;
+}
+
+.button:hover {
+  --background: rgb(6, 168, 6);
+}
